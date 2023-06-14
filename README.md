@@ -28,6 +28,7 @@ You can validate your API key using the `/api/key` endpoint. If the key is valid
     "scope": ["global"]
 }
 ```
+Currently all API keys have a `global` scope.  More discrete scopes are planned in the near future.
 
 ### POST /api/key
 **Description:** Validate your API key.
