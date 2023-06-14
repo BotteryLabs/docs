@@ -1,7 +1,7 @@
 # Bottery Public API Documentation
 
 ## Base URL
-All API endpoints are relative to: `https://alpha.bottery.ai/`
+All API endpoints are relative to: `https://cloud.bottery.ai/`
 
 ## Authentication
 Most endpoints require authentication. This is done by including a valid JWT (JSON Web Token) in the `Authorization` header with the format `Bearer {token}` for each request. You can obtain a JWT by making a POST request to the `/api/auth` endpoint with your API key.
